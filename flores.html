@@ -4,19 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantitas</title>
-
     <link rel="stylesheet" type="text/css" href="Estilos.css">
-
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-
 </head>
 <body>
   <!-- Header -->
   <div id="header">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Plantitas 🌱</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,9 +20,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Maceteros 🪴</a>
             </li>
@@ -44,74 +37,73 @@
       </div>
     </nav>
   </div>
-
+  <!-- Resto del contenido -->
   <!-- Contenido -->
   <div id="contenido">
-<!--Productos-->
-    <div class="container">
-        <div class="row">
-        <div class="col-sm-12 custom-margin">
-            <div class="card-container">
-            <div class="card">
-                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTSN9VciH5itbQ0jCRXl63b12iRt7OZGXEAN09zyr2tLDBk0QtHFmCbkPU9BNgxgOgA8Rmv-SDd-Xg2N-N7RLf7a5ti-T6T&usqp=CAE"  style="max-width:100%;height:auto;"  alt="Flor 1">
-                <div class="card-content">
-                <div class="card-title">Draculaura Skulltimate Secrets 2</div>
-                <div class="card-text">$29.990</div>
-                <p><a href="#" onclick="agregarAlCarrito('Draculaura Skulltimate Secrets 2', 29990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+    <!--Productos-->
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-12 custom-margin">
+                <div class="card-container">
+                <div class="card">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTSN9VciH5itbQ0jCRXl63b12iRt7OZGXEAN09zyr2tLDBk0QtHFmCbkPU9BNgxgOgA8Rmv-SDd-Xg2N-N7RLf7a5ti-T6T&usqp=CAE"  style="max-width:100%;height:auto;"  alt="Flor 1">
+                    <div class="card-content">
+                    <div class="card-title">Draculaura Skulltimate Secrets 2</div>
+                    <div class="card-text">$29.990</div>
+                    <p><a href="#" onclick="agregarAlCarrito('Draculaura Skulltimate Secrets 2', 29990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="card">
-                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR8MffgjLSVPrjrzm3iM3W91dH_vW1gW9OyW_HnqhmpcHV1DlIabWKVNY0f8Yf2PfAJ6_mqi4BwOc8QrJZrJENzE7SQMVxcw2i9z0GW6mI&usqp=CAE" style="max-width:100%;height:auto;" alt="Perro 2">
-                <div class="card-content">
-                <div class="card-title">Draculaura Vampire Heart</div>
-                <div class="card-text">$99.990</div>
-                <p><a href="#" onclick="agregarAlCarrito('Draculaura Vampire Heart', 99990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+    
+                <div class="card">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR8MffgjLSVPrjrzm3iM3W91dH_vW1gW9OyW_HnqhmpcHV1DlIabWKVNY0f8Yf2PfAJ6_mqi4BwOc8QrJZrJENzE7SQMVxcw2i9z0GW6mI&usqp=CAE" style="max-width:100%;height:auto;" alt="Perro 2">
+                    <div class="card-content">
+                    <div class="card-title">Draculaura Vampire Heart</div>
+                    <div class="card-text">$99.990</div>
+                    <p><a href="#" onclick="agregarAlCarrito('Draculaura Vampire Heart', 99990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSntFEc81I7xMeStliagAhYPldTBiNR4Inwrqk7_Ec82xTd6wDExaRwGoqSGj2wBOu9Y3_6nms440Do47AEkwrzv_pNcW4jzRNQeWxDtOMO&usqp=CAE" style="max-width:100%;height:auto;" alt="Perro 3">
-                <div class="card-content">
-                <div class="card-title">Cleo de Nile Haunt Couture</div>
-                <div class="card-text">$69.990</div>
-                <p><a href="#" onclick="agregarAlCarrito('Cleo de Nile Haunt Couture', 69990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+                <div class="card">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSntFEc81I7xMeStliagAhYPldTBiNR4Inwrqk7_Ec82xTd6wDExaRwGoqSGj2wBOu9Y3_6nms440Do47AEkwrzv_pNcW4jzRNQeWxDtOMO&usqp=CAE" style="max-width:100%;height:auto;" alt="Perro 3">
+                    <div class="card-content">
+                    <div class="card-title">Cleo de Nile Haunt Couture</div>
+                    <div class="card-text">$69.990</div>
+                    <p><a href="#" onclick="agregarAlCarrito('Cleo de Nile Haunt Couture', 69990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTN_0iK99D9hJQYHSTn0dqOq-g6UI7rjgBweNBVvPwOs9TKnmEo2WudICFT-jyiAUxqCqgktshg34PcSuQBxZrTFH8UA4cBZ_hw_PjyKMA&usqp=CAE" style="max-width:100%;height:auto;" alt="Gato 1">
-                <div class="card-content">
-                <div class="card-title">Ghoulia Yeps Creeproduction</div>
-                <div class="card-text">24.990</div>
-                <p><a href="#" onclick="agregarAlCarrito('Ghoulia Yeps Creeproduction', 24990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+                <div class="card">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTN_0iK99D9hJQYHSTn0dqOq-g6UI7rjgBweNBVvPwOs9TKnmEo2WudICFT-jyiAUxqCqgktshg34PcSuQBxZrTFH8UA4cBZ_hw_PjyKMA&usqp=CAE" style="max-width:100%;height:auto;" alt="Gato 1">
+                    <div class="card-content">
+                    <div class="card-title">Ghoulia Yeps Creeproduction</div>
+                    <div class="card-text">24.990</div>
+                    <p><a href="#" onclick="agregarAlCarrito('Ghoulia Yeps Creeproduction', 24990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRHICVPtyV3ds10X4o9pIppmR1dr5ISZ79K7fsbC9AiEbUOGP4yp-nSWevHWtNsy_8phmNLJF86byq-qyGBccWtAK4UxKx6rZy8XayBzyY&usqp=CAE" style="max-width:100%;height:auto;" alt="Gato 2">
-                <div class="card-content">
-                <div class="card-title">Abbey Bominable</div>
-                <div class="card-text">29.990</div>
-                <p><a href="#" onclick="agregarAlCarrito('Abbey Bominable', 29990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+                <div class="card">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRHICVPtyV3ds10X4o9pIppmR1dr5ISZ79K7fsbC9AiEbUOGP4yp-nSWevHWtNsy_8phmNLJF86byq-qyGBccWtAK4UxKx6rZy8XayBzyY&usqp=CAE" style="max-width:100%;height:auto;" alt="Gato 2">
+                    <div class="card-content">
+                    <div class="card-title">Abbey Bominable</div>
+                    <div class="card-text">29.990</div>
+                    <p><a href="#" onclick="agregarAlCarrito('Abbey Bominable', 29990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR8yGUiEM-p44ZVKsqk4FbyBoVJGaR1ItFB64sHDB8SBPdcu_MFLd_p8_gtUm_82HIAXKwPOandO3T6gFoK7fDAvmYzFa4v1_iiGINGc7s&usqp=CAE" style="max-width:100%;height:auto;" alt="Gato 3">
-                <div class="card-content">
-                <div class="card-title">Draculaura Gore-ganizer</div>
-                <div class="card-text">$34.990</div>
-                <p><a href="#" onclick="agregarAlCarrito('Draculaura Gore-ganizer', 34990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+                <div class="card">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR8yGUiEM-p44ZVKsqk4FbyBoVJGaR1ItFB64sHDB8SBPdcu_MFLd_p8_gtUm_82HIAXKwPOandO3T6gFoK7fDAvmYzFa4v1_iiGINGc7s&usqp=CAE" style="max-width:100%;height:auto;" alt="Gato 3">
+                    <div class="card-content">
+                    <div class="card-title">Draculaura Gore-ganizer</div>
+                    <div class="card-text">$34.990</div>
+                    <p><a href="#" onclick="agregarAlCarrito('Draculaura Gore-ganizer', 34990)" class="btn btn-primary" role="button">Añadir al carrito</a></p>
+                    </div>
+                </div>
                 </div>
             </div>
             </div>
         </div>
         </div>
-    </div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <div id="footer">
-
-  </div>
-
+      </div>
+    
+      <!-- Footer -->
+      <div id="footer">
+    
+      </div>
 </body>
 </html>
