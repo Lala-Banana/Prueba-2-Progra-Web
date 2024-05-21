@@ -59,3 +59,11 @@ img{
   .btn-adoptar:hover {
     background-color: #0056b3;
   }
+
+  body {
+    background-image: url('https://p0.pxfuel.com/preview/957/146/327/plants-leaf-nature-green.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
