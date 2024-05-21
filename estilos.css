@@ -2,10 +2,14 @@ img{
     width: 400px; 
 }
 
+/* Contenedor transparente */
 .custom-margin {
-    background-color: #f7f7f7;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con 80% de opacidad */
     padding: 20px;
-  }
+    border-radius: 10px; /* Ajusta según tus necesidades */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+
   
   .card-container {
     display: flex;
@@ -41,8 +45,15 @@ img{
   .card-text {
     font-size: 16px;
     margin-bottom: 20px;
+    text-align: justify;
   }
   
+  .card-text-price {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
   .btn-adoptar {
     display: block;
     width: 100%;
