@@ -1,107 +1,45 @@
-img{
-    width: 400px; 
+.navbar-brand {
+  font-weight: bold;  
 }
 
-/* Contenedor transparente */
-.custom-margin {
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con 80% de opacidad */
-    padding: 20px;
-    border-radius: 10px; /* Ajusta según tus necesidades */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+#carouselExampleIndicators {
+  height: 500px;
 }
 
-  
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .card {
-    flex: 0 0 calc(33.333% - 20px); /* Ajusta el ancho de cada tarjeta */
-    margin-bottom: 20px;
-    background-color: #ffffff38;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    overflow: hidden;
-  }
-  
-  .card img {
-    width: cover;
-    height: 400px;
-
-    border-radius: 5px 5px 0 0;
-  }
-  
-  .card-content {
-    padding: 20px;
-  }
-  
-  .card-title {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .card-text {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-align: justify;
-  }
-  
-  .card-text-price {
-    font-size: 18px;
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
-
-  .btn-adoptar {
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-adoptar:hover {
-    background-color: #0056b3;
-  }
-
-  body {
-    background-image: url('https://p0.pxfuel.com/preview/957/146/327/plants-leaf-nature-green.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+#carouselImages {
+  height: 500px;
+  object-fit: cover;
 }
 
-/* NAVBAR TRANSPARENTE */
-/* Ajustes para el navbar transparente */
-.navbar {
-  background-color: rgba(195, 240, 163, 0.8); /* Fondo blanco con transparencia */
-  box-shadow: none; /* Elimina cualquier sombra */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
 }
 
-.navbar .navbar-brand, 
-.navbar .nav-link {
-  color: #ffffff; /* Color del texto */
+.footer-test {
+  height: 100px;
+  background-color: #45494e;
 }
 
-.navbar .navbar-brand:hover, 
-.navbar .nav-link:hover {
-  color: #000000; /* Color del texto al pasar el mouse */
+.btn-navbar {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
 }
 
-.navbar .navbar-toggler {
-  border: none; /* Sin borde para el botón del menú en pantallas pequeñas */
+.text-formulario {
+  color: #ffffff;
+  /*
+  quitar subrayado
+  */
+  text-decoration: none;
 }
 
-.navbar .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  /* Ajusta el color del icono del botón */
+.footer-test {
+  margin-top: 50px;
 }
 
+.card-text-price {
+  font-weight: bold;
+}
